@@ -17,3 +17,5 @@ let colorWhite          = UIColor(red:1.00, green:1.00, blue:1.00, alpha:1.00)
 let colorTextSecondary  = UIColor(red:0.51, green:0.51, blue:0.51, alpha:1.00)
 
 // fonts
+let fontLight           = UIFont(name: "HelveticaNeue-Light", size: 14)
+let fontMedium          = UIFont(name: "HelveticaNeue-Medium", size: 14)

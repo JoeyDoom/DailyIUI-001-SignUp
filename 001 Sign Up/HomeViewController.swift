@@ -47,7 +47,7 @@ class HomeViewController: UIViewController, UIViewControllerTransitioningDelegat
         button.backgroundColor = colorWhite
 //        let attributedText = NSMutableAttributedString(string: "I'm Already A Member", attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 14, weight: UIFontWeightThin), NSForegroundColorAttributeName: colorBlack])
 //        button.setAttributedTitle(attributedText, for: .normal)
-        button.titleLabel?.font = UIFont(name: "HelveticaNeue-Light", size: 14)
+        button.titleLabel?.font = fontLight
         button.setTitleColor(colorBlack, for: .normal)
         button.setTitle("I'M ALREADY A MEMBER", for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
@@ -60,7 +60,7 @@ class HomeViewController: UIViewController, UIViewControllerTransitioningDelegat
         let button = UIButton()
         button.backgroundColor = colorPrimary
 //        let attributedText = NSMutableAttributedString(string: "Sign Up", attributes: [NSFontAttributeName: UIFont.systemFont(ofSize: 14, weight: UIFontWeightThin), NSForegroundColorAttributeName: colorBlack])
-        button.titleLabel?.font = UIFont(name: "HelveticaNeue-Light", size: 14)
+        button.titleLabel?.font = fontLight
         button.setTitle("SIGN UP", for: .normal)
         button.setTitleColor(colorBlack, for: .normal)
         button.translatesAutoresizingMaskIntoConstraints = false
